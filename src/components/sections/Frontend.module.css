@@ -1,0 +1,44 @@
+.frontend {
+    margin-bottom: 50px;
+}
+.frontend h1 {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.frontend div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontend div section{
+    display: flex;
+    flex-direction: column !important;
+    margin-right: 150px;
+}
+
+
+.frontend ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    font-size: 60px;
+
+}
+
+.frontend ul li{
+    padding: 15px;
+}
+
+
+.frontend  p {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}

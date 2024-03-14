@@ -1,0 +1,19 @@
+.buttonB {
+    background: #f7b893;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
+.buttonB:hover {
+    color: aliceblue;
+    background-color: #2C333E;
+    transform: translateY(-2px);
+    transition-duration: 0.5s;
+}

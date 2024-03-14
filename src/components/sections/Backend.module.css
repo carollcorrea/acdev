@@ -1,0 +1,52 @@
+.backend{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.backend h1{
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.backend  p{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.backend div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backend div section{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+
+.backend ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-size: 60px;
+
+}
+
+.backend ul li{
+    padding: 15px;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}

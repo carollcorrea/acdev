@@ -1,0 +1,64 @@
+@media (max-width:430px) {
+    .presentation container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .presentation h1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+
+    .presentation p {
+        width: max-content;
+    }
+
+    .img { 
+        display: none;
+    }
+}
+
+
+@media  (min-width: 430px) {
+    
+    .presentation {
+        font-family: Helvetica;
+        font-weight: 400;
+        font-size: larger;
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 150px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .presentation h1 {
+        margin-bottom: 0;
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+
+    .presentation p {
+        margin-bottom: 15px;
+    }
+
+    .presentation a {
+        color: aliceblue !important;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .presentation img{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+}

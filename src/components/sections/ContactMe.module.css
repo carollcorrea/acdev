@@ -1,0 +1,75 @@
+.ContactMe {
+    flex-wrap: wrap;
+}
+
+.ContactMe h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactMe p {
+    font-family: Helvetica;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.ContactMe section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
+
+.ContactMe {
+    margin: 50px;
+    font-family: Helvetica !important;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height: 300px;
+}
+
+.ContactMe h1{
+    margin-bottom: 100px;
+    color: white;
+}
+
+.ContactMe ul {
+    display: flex;
+    font-family: Helvetica;
+    font-size: 20px;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    margin: 0%;
+}
+
+.ContactMe p{
+    font-family: Helvetica;
+    font-size: 20px;
+    list-style: none;
+}
+
+.ContactMe li {
+    margin: 15px;
+    font-size: 30px;
+    
+}
+
+.ContactMe li:hover {
+    color: aliceblue;
+    transform: translateY(-2px);
+    transition-duration: 0.5s;
+}
+
+.ContactMe ul li a {
+    color: aliceblue !important;
+    text-decoration: none;
+}
